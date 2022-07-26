@@ -20,6 +20,7 @@ export function Header() {
         </Nav>
         {cartQuantity > 0 ? (
           <Button
+            onClick={openCart}
             variant="outline-primary"
             className="well shadow-sm"
             style={{ color: "red", fontWeight: "bold" }}
@@ -28,6 +29,7 @@ export function Header() {
           </Button>
         ) : (
           <Button
+            onClick={openCart}
             variant="outline-primary"
             className="well shadow-sm"
             style={{ color: "red", fontWeight: "bold" }}
