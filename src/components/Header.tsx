@@ -5,7 +5,7 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 export function Header() {
   const { openCart, cartQuantity } = useShoppingCart();
   return (
-    <BsNavbar sticky="top" className="bg-white shadow-sm mb-3">
+    <BsNavbar sticky="top" className="bg-white shadow-sm">
       <Container className="d-flex">
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>

@@ -16,16 +16,18 @@ export function TeamMember({
   image,
 }: TeamMemberProps) {
   return (
-    <Card>
+    <Card className="mx-2 member-hover">
       <Card.Img
         src={image}
         variant="top"
         height="350px"
         style={{ objectFit: "cover" }}
       />
-      <h3>{name}</h3>
-      <span>{location}</span>
-      <p>{description}</p>
+      <Card.Body className="py-2">
+        <h3 style={{ borderBottom: "2px solid #333" }}>{name}</h3>
+        <span>{location}</span>
+        <p style={{ fontSize: "14px", lineHeight: "1.2" }}>{description}</p>
+      </Card.Body>
     </Card>
   );
 }
