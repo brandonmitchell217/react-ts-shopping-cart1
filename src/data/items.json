@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Skateboard 1",
+    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 2,
+    "name": "Skateboard 2",
+    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 3,
+    "name": "Skateboard 3",
+    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "price": 59.99
+  },
+  {
+    "id": 4,
+    "name": "Skateboard 4",
+    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "price": 59.99
+  }
+]
