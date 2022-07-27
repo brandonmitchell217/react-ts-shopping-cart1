@@ -15,7 +15,6 @@ export function AboutLanding() {
       <div
         className="landing-bg d-flex align-items-end justify-content-end pb-5"
         style={{
-          color: "#fff",
           height: "100%",
           backgroundImage:
             "url(https://images.unsplash.com/photo-1496886077455-6e206da90837?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)",

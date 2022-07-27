@@ -2,25 +2,25 @@
   {
     "id": 1,
     "name": "Skateboard 1",
-    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/jd-huntin-with-darlin_720x.jpg?v=1654800745",
     "price": 59.99
   },
   {
     "id": 2,
     "name": "Skateboard 2",
-    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/bs-rz-brand-logo-foil-deck_720x.jpg?v=1626906077",
     "price": 59.99
   },
   {
     "id": 3,
     "name": "Skateboard 3",
-    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/all-night-kalis_720x.jpg?v=1642536943",
     "price": 59.99
   },
   {
     "id": 4,
     "name": "Skateboard 4",
-    "image": "https://i.pinimg.com/originals/0a/78/6d/0a786db6263691f6af1ad24fb6376722.jpg",
+    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/rh-labyrinth-1_720x.jpg?v=1636754112",
     "price": 59.99
   }
 ]

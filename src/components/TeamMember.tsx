@@ -16,7 +16,7 @@ export function TeamMember({
   image,
 }: TeamMemberProps) {
   return (
-    <Card className="mx-2 member-hover">
+    <Card className="mx-2 member-hover text-dark">
       <Card.Img
         src={image}
         variant="top"
