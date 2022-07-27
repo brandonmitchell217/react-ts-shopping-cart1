@@ -6,7 +6,7 @@ export function Store() {
   return (
     <section
       className="pb-3"
-      style={{ minHeight: "100vh", background: "#333333" }}
+      style={{ minHeight: "100vh", background: "#333333", color: "#fff" }}
     >
       <Container>
         <h1>Store</h1>
