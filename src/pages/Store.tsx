@@ -27,13 +27,6 @@ export function Store() {
           </div>
         </div>
         <Row md={4} xs={2} lg={4} className="g-0">
-          {/* {storeItems
-            .filter((item) => item.type.toLowerCase() === category)
-            .map((it) => (
-              <Col>
-                <StoreItem {...it} />
-              </Col>
-            ))} */}
           {category === ""
             ? storeItems.map((item) => (
                 <Col>
@@ -42,9 +35,9 @@ export function Store() {
               ))
             : storeItems
                 .filter((item) => item.type.toLowerCase() === category)
-                .map((it) => (
+                .map((item) => (
                   <Col>
-                    <StoreItem {...it} />
+                    <StoreItem {...item} />
                   </Col>
                 ))}
         </Row>
