@@ -7,7 +7,7 @@ export function Store() {
   const [category, setCategory] = useState("");
 
   return (
-    <section className="py-3" style={{ minHeight: "100vh", color: "#fff" }}>
+    <section className="py-3">
       <Container>
         <div className="d-flex justify-content-between align-items-center my-3">
           <h1>Store</h1>
@@ -26,7 +26,7 @@ export function Store() {
             </Button>
           </div>
         </div>
-        <Row md={4} xs={2} lg={4} className="g-0">
+        <Row md={4} xs={2} lg={4} className="g-3">
           {category === ""
             ? storeItems.map((item) => (
                 <Col>
