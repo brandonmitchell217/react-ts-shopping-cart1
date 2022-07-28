@@ -1,30 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { StoreItem } from "../components/StoreItem";
 import storeItems from "../data/items.json";
 
 export function Store() {
   const [category, setCategory] = useState("");
-
-  // const filterType = (type: string) => {
-  //   if (type === "deck" && category === "deck") {
-  //     return storeItems
-  //       .filter((item) => item.type === "deck")
-  //       .map((item) => (
-  //         <Col>
-  //           <StoreItem {...item} />
-  //         </Col>
-  //       ));
-  //   } else if (type === "shoes" && category === "shoes") {
-  //     return storeItems
-  //       .filter((item) => item.type === "shoes")
-  //       .map((item) => (
-  //         <Col>
-  //           <StoreItem {...item} />
-  //         </Col>
-  //       ));
-  //   }
-  // };
 
   return (
     <section className="py-3" style={{ minHeight: "100vh", color: "#fff" }}>
@@ -47,11 +27,26 @@ export function Store() {
           </div>
         </div>
         <Row md={4} xs={2} lg={4} className="g-0">
-          {storeItems.map((item) => (
-            <Col>
-              <StoreItem {...item} />
-            </Col>
-          ))}
+          {/* {storeItems
+            .filter((item) => item.type.toLowerCase() === category)
+            .map((it) => (
+              <Col>
+                <StoreItem {...it} />
+              </Col>
+            ))} */}
+          {category === ""
+            ? storeItems.map((item) => (
+                <Col>
+                  <StoreItem {...item} />
+                </Col>
+              ))
+            : storeItems
+                .filter((item) => item.type.toLowerCase() === category)
+                .map((it) => (
+                  <Col>
+                    <StoreItem {...it} />
+                  </Col>
+                ))}
         </Row>
       </Container>
     </section>
