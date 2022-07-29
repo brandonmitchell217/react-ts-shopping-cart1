@@ -4,6 +4,8 @@ import { About } from "./pages/About";
 import { Store } from "./pages/Store";
 import { Header } from "./components/Header";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import { MemberModal } from "./components/MemberModal";
+import teamData from "./data/team.json";
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/store" element={<Store />} />
+            <Route
+              path="/member/:id"
+              element={<MemberModal data={teamData} />}
+            />
           </Routes>
         </div>
       </ShoppingCartProvider>
