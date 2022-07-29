@@ -12,6 +12,28 @@ section {
   background-color: #333;
 }
 
+.member-modal {
+  height: 100%;
+  max-width: 1000px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member-modal .image {
+  position: relative;
+  flex: 1;
+  background-color: red;
+}
+
+.member-modal .image img {
+  object-fit: cover;
+}
+.member-modal .body {
+  flex: 1;
+  padding: 0 1rem;
+}
 .member-hover {
   transition: all 300ms;
 }

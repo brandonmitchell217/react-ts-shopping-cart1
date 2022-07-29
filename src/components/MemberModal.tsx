@@ -1,16 +1,25 @@
 import { useParams } from "react-router-dom";
-import teamData from "../data/team.json";
 
 export function MemberModal({ data }: any) {
   const { id }: any = useParams();
   let selected = data[id - 1];
 
   return (
-    <>
-      <img src={selected.image} />
+    <section>
+      {/* <img src={selected.image} />
       <h1>{selected.name}</h1>
       <span>{selected.location}</span>
-      <p>{selected.description}</p>
-    </>
+      <p>{selected.description}</p> */}
+      <div className="member-modal">
+        <div className="image">
+          <img src={selected.image} alt="Skateboarding dude" />
+        </div>
+        <div className="body">
+          <h1>{selected.name}</h1>
+          <span>{selected.location}</span>
+          <p>{selected.description}</p>
+        </div>
+      </div>
+    </section>
   );
 }
