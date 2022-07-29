@@ -1,6 +1,5 @@
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { MemberModal } from "./MemberModal";
 
 type TeamMemberProps = {
   id: number;
@@ -18,13 +17,6 @@ export function TeamMember({
   description,
   image,
 }: TeamMemberProps) {
-  // const params = {
-  //   id,
-  //   name,
-  //   location,
-  //   description,
-  //   image,
-  // };
   return (
     <Link to={`/member/${id}`}>
       <Card className="mx-2 member-hover text-dark">

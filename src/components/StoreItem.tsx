@@ -11,7 +11,6 @@ type StoreItemProps = {
 
 export function StoreItem({ id, name, image, price, type }: StoreItemProps) {
   const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
-  //   const quantity = getItemQuantity(id);
 
   return (
     <Card className="text-dark my-3 member-hover" style={{ maxWidth: "300px" }}>

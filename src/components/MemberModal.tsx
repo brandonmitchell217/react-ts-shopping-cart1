@@ -6,10 +6,6 @@ export function MemberModal({ data }: any) {
 
   return (
     <section>
-      {/* <img src={selected.image} />
-      <h1>{selected.name}</h1>
-      <span>{selected.location}</span>
-      <p>{selected.description}</p> */}
       <div className="member-modal">
         <div className="image">
           <img src={selected.image} alt="Skateboarding dude" />
