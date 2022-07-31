@@ -6,6 +6,8 @@ import { Header } from "./components/Header";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import { MemberModal } from "./components/MemberModal";
 import teamData from "./data/team.json";
+import storeItems from "./data/items.json";
+import { ItemModal } from "./components/ItemModal";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
             <Route
               path="/member/:id"
               element={<MemberModal data={teamData} />}
+            />
+            <Route
+              path="/store/products/:id"
+              element={<ItemModal data={storeItems} />}
             />
           </Routes>
         </div>
