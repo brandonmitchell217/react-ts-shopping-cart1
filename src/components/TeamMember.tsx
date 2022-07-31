@@ -18,7 +18,7 @@ export function TeamMember({
   image,
 }: TeamMemberProps) {
   return (
-    <Link to={`/member/${id}`}>
+    <Link to={`/member/${id}`} style={{ textDecoration: "none" }}>
       <Card className="mx-2 member-hover text-dark">
         <Card.Img
           src={image}

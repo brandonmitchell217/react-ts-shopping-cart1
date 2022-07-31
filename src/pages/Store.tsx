@@ -26,7 +26,7 @@ export function Store() {
             </Button>
           </div>
         </div>
-        <Row md={4} xs={2} lg={4} className="g-3">
+        <Row md={4} xs={2} lg={4} className="g-3 px-3">
           {category === ""
             ? storeItems.map((item) => (
                 <Col>

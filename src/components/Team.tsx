@@ -11,7 +11,7 @@ export function Team() {
       >
         Team
       </h1>
-      <div className="d-flex mt-5">
+      <div className="d-flex mt-5 px-3">
         {teamData.map((mem: any, key: number) => (
           <TeamMember {...mem} />
         ))}
