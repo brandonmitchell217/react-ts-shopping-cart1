@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { StoreItem } from "../components/StoreItem";
 import storeItems from "../data/items.json";
@@ -31,18 +30,14 @@ export function Store() {
           {category === ""
             ? storeItems.map((item) => (
                 <Col>
-                  <Link to={`/store/products/${item.id}`}>
-                    <StoreItem {...item} />
-                  </Link>
+                  <StoreItem {...item} />
                 </Col>
               ))
             : storeItems
                 .filter((item) => item.type.toLowerCase() === category)
                 .map((item) => (
                   <Col>
-                    <Link to={`/store/products/${item.id}`}>
-                      <StoreItem {...item} />
-                    </Link>
+                    <StoreItem {...item} />
                   </Col>
                 ))}
         </Row>

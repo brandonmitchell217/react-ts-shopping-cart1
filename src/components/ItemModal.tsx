@@ -4,7 +4,7 @@ import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useParams } from "react-router-dom";
 
 export function ItemModal({ data }: any) {
-  const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
+  const { increaseCartQuantity } = useShoppingCart();
   const { id }: any = useParams();
   let selected = data[id - 1];
   return (
@@ -15,7 +15,7 @@ export function ItemModal({ data }: any) {
         </div>
         <div className="body">
           <h1>{selected.name}</h1>
-          <span>{selected.price}</span>
+          <span>${selected.price}</span>
           <Button
             className="d-block mt-3 mx-auto"
             onClick={() => increaseCartQuantity(selected.id)}

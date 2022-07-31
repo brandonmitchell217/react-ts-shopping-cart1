@@ -1,4 +1,5 @@
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 type StoreItemProps = {
@@ -10,14 +11,16 @@ type StoreItemProps = {
 };
 
 export function StoreItem({ id, name, image, price, type }: StoreItemProps) {
-  const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
+  const { increaseCartQuantity } = useShoppingCart();
 
   return (
     <Card className="text-dark my-3 member-hover" style={{ maxWidth: "300px" }}>
-      <Card.Img src={image} variant="top" />
+      <Link to={`/store/products/${id}`}>
+        <Card.Img src={image} variant="top" />
+      </Link>
       <Card.Body className="px-3">
         <h3 className="text-center">{name}</h3>
-        <span>{price}</span>
+        <span>${price}</span>
         <span className="d-block text-muted text-lowercase">{type}</span>
         <Button
           className="d-block mt-3 mx-auto"
