@@ -9,7 +9,7 @@ export function Home({ data }: any) {
     itemsShown.push(things);
   }
   return (
-    <section className="pb-3">
+    <section style={{ height: "100vh" }}>
       <Container className="d-flex flex-column">
         <h1>Home</h1>
         <div className="p-5">

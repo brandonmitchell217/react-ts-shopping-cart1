@@ -8,6 +8,7 @@ import { MemberModal } from "./components/MemberModal";
 import teamData from "./data/team.json";
 import storeItems from "./data/items.json";
 import { ItemModal } from "./components/ItemModal";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             />
           </Routes>
         </div>
+        <Footer />
       </ShoppingCartProvider>
     </>
   );
