@@ -4,7 +4,7 @@ import { Team } from "../components/Team";
 
 export function About() {
   return (
-    <section className="pb-3">
+    <section className="pb-3" id="about">
       <Container>
         <AboutLanding />
         <Team />

@@ -21,7 +21,7 @@ export function AboutLanding() {
         }}
       >
         <div
-          className="w-50 py-4 px-5 d-flex flex-column align-items-end"
+          className="w-50 py-4 px-5 d-flex flex-column align-items-end text"
           style={{
             position: "relative",
             zIndex: "2",

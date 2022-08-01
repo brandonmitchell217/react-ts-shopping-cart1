@@ -9,7 +9,7 @@ export function Store() {
   return (
     <section className="py-3">
       <Container>
-        <div className="d-flex justify-content-between align-items-center my-3">
+        <div className="d-flex justify-content-between align-items-center my-3 storeTitle">
           <h1>Store</h1>
           <div className="d-flex justify-content-around w-50">
             <Button variant="outline-light" onClick={() => setCategory("")}>

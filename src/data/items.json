@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "name": "Skateboard 1",
+    "name": "DGK Deck?",
     "image": "/images/skateboard1.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 2,
-    "name": "Skateboard 2",
+    "name": "Baker Deck",
     "image": "/images/skateboard2.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 3,
-    "name": "Skateboard 3",
+    "name": "DGK Deck",
     "image": "/images/skateboard3.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 4,
-    "name": "Skateboard 4",
+    "name": "Baker Deck",
     "image": "/images/skateboard4.webp",
     "price": 59.99,
     "type": "Deck"

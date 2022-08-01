@@ -11,6 +11,9 @@ section {
   color: #fff;
   background-color: #333;
 }
+.query-margin-y {
+  margin: 10px 0 !important;
+}
 
 .member-modal,
 .item-modal {
@@ -50,4 +53,46 @@ section {
 .member-hover:hover,
 .item-modal:hover {
   transform: scale(1.04);
+}
+
+@media screen and (max-width: 1080px) {
+  #about main .landing-bg {
+    justify-content: flex-start !important;
+    align-items: flex-end !important;
+  }
+  #about main .landing-bg h1 {
+    font-size: 2.75rem !important;
+    border-width: 3px !important;
+  }
+  #about main .landing-bg p {
+    font-size: 0.95rem !important;
+  }
+  #about main .landing-bg > div {
+    width: 100% !important;
+  }
+
+  .team > div {
+    flex-wrap: wrap;
+  }
+  .storeTitle {
+    flex-direction: column;
+  }
+  .storeTitle > div {
+    width: 100% !important;
+  }
+  .storeTitle h1 {
+    width: 100%;
+    text-align: left;
+  }
+  .item-page-sect,
+  .member-page-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-modal,
+  .member-modal {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
 }

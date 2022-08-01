@@ -7,7 +7,7 @@ export function ItemModal({ data }: any) {
   const { id }: any = useParams();
   let selected = data[id - 1];
   return (
-    <section>
+    <section className="item-page-sect">
       <div className="item-modal">
         <div className="image">
           <img src={selected.image} alt="Product Image" />

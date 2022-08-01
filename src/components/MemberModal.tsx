@@ -5,7 +5,7 @@ export function MemberModal({ data }: any) {
   let selected = data[id - 1];
 
   return (
-    <section>
+    <section className="member-page-sect">
       <div className="member-modal">
         <div className="image">
           <img src={selected.image} alt="Skateboarding dude" />
