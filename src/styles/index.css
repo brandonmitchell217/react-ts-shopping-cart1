@@ -26,7 +26,12 @@ section {
 .item-modal .image {
   position: relative;
   flex: 1;
-  background-color: red;
+}
+.item-modal .image {
+  flex: auto;
+}
+.item-modal .image img {
+  max-width: 400px;
 }
 
 .member-modal .image img,
