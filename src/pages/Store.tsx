@@ -11,9 +11,21 @@ export function Store() {
       <Container>
         <div className="d-flex justify-content-between align-items-center my-3">
           <h1>Store</h1>
-          <div className="d-flex justify-content-around w-25">
+          <div className="d-flex justify-content-around w-50">
             <Button variant="outline-light" onClick={() => setCategory("")}>
               All
+            </Button>
+            <Button
+              variant="outline-light"
+              onClick={() => setCategory("shirt")}
+            >
+              Shirts
+            </Button>
+            <Button
+              variant="outline-light"
+              onClick={() => setCategory("hoodie")}
+            >
+              Hoodies
             </Button>
             <Button variant="outline-light" onClick={() => setCategory("deck")}>
               Decks

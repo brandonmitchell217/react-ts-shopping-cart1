@@ -54,5 +54,47 @@
     "image": "/images/shoes4.webp",
     "price": 69.99,
     "type": "Shoes"
+  },
+  {
+    "id": 9,
+    "name": "Shirt 1",
+    "image": "/images/shirt1.webp",
+    "price": 22.99,
+    "type": "Shirt"
+  },
+  {
+    "id": 10,
+    "name": "Shirt 2",
+    "image": "/images/shirt2.webp",
+    "price": 22.99,
+    "type": "Shirt"
+  },
+  {
+    "id": 11,
+    "name": "Shirt 3",
+    "image": "/images/shirt3.webp",
+    "price": 22.99,
+    "type": "Shirt"
+  },
+  {
+    "id": 12,
+    "name": "Shirt 4",
+    "image": "/images/shirt4.webp",
+    "price": 22.99,
+    "type": "Shirt"
+  },
+  {
+    "id": 13,
+    "name": "Hoodie 1",
+    "image": "/images/hoodie1.webp",
+    "price": 62.99,
+    "type": "Hoodie"
+  },
+  {
+    "id": 14,
+    "name": "Hoodie 2",
+    "image": "/images/hoodie2.webp",
+    "price": 62.99,
+    "type": "Hoodie"
   }
 ]
