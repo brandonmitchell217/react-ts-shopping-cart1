@@ -4,7 +4,7 @@ import { StoreItem } from "../components/StoreItem";
 
 export function Home({ data }: any) {
   let itemsShown = [];
-  for (let i = 1; i <= data.length - 4; i++) {
+  for (let i = 1; i <= 4; i++) {
     let [things] = data.sort(() => Math.random() - 0.5).slice(0, 4);
     itemsShown.push(things);
   }

@@ -2,56 +2,56 @@
   {
     "id": 1,
     "name": "Skateboard 1",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/jd-huntin-with-darlin_720x.jpg?v=1654800745",
+    "image": "/images/skateboard1.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 2,
     "name": "Skateboard 2",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/bs-rz-brand-logo-foil-deck_720x.jpg?v=1626906077",
+    "image": "/images/skateboard2.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 3,
     "name": "Skateboard 3",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/all-night-kalis_720x.jpg?v=1642536943",
+    "image": "/images/skateboard3.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 4,
     "name": "Skateboard 4",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/rh-labyrinth-1_720x.jpg?v=1636754112",
+    "image": "/images/skateboard4.webp",
     "price": 59.99,
     "type": "Deck"
   },
   {
     "id": 5,
     "name": "Shoes 1",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/berle-raven-blk-gum-1_720x.jpg?v=1651516694",
+    "image": "/images/shoes1.webp",
     "price": 69.99,
     "type": "Shoes"
   },
   {
     "id": 6,
     "name": "Shoes 2",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/skate-half-cab-blk-blk_720x.jpg?v=1644350951",
+    "image": "/images/shoes2.webp",
     "price": 69.99,
     "type": "Shoes"
   },
   {
     "id": 7,
     "name": "Shoes 3",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/skate-old-skool-natas-for-ray-red_720x.jpg?v=1644352012",
+    "image": "/images/shoes3.webp",
     "price": 69.99,
     "type": "Shoes"
   },
   {
     "id": 8,
     "name": "Shoes 4",
-    "image": "https://cdn.shopify.com/s/files/1/1786/2963/products/ultrarange-exo-blk_720x.jpg?v=1650564744",
+    "image": "/images/shoes4.webp",
     "price": 69.99,
     "type": "Shoes"
   }
