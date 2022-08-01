@@ -1,5 +1,4 @@
-import { Button, Stack } from "react-bootstrap";
-import { formatCurrency } from "../utilities/formatCurrency";
+import { Button } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useParams } from "react-router-dom";
 
